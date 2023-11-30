@@ -9,3 +9,8 @@ yspd = (down_key - up_key) * move_spd;
 
 x += xspd;
 y += yspd;
+
+if keyboard_check(vk_shift) == true{
+	x += xspd * 2
+	y += yspd * 2
+}
